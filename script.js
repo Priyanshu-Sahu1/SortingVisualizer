@@ -7,7 +7,7 @@ const select = document.querySelector('[data-select-sorting-algorithm]');
 const speed = document.querySelector('[data-input-range]');
 const speedText = document.querySelector('[data-speed-text]');
 
-let arraySizeInput = document.querySelector('[data-array-size]').value;
+let arraySizeInput = document.querySelector('[data-array-size]').value;     // used DOM to select array size
 let arr = [];
 let sleepTime = 100;
 
